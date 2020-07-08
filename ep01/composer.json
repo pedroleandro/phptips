@@ -1,0 +1,28 @@
+{
+  "name": "pedroleandro/ep01",
+  "description": "Conhecendo o composer e configurando a IDE PhpStorm",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pedro",
+      "email": "pedro.leandrog@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    
+  },
+  "config": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\" : "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  }
+
+}
